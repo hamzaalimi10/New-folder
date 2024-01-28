@@ -17,3 +17,7 @@ body {
 .sub-title {
     font-size:xx-large !important;
 }
+
+span {
+    color: white !important;
+}
