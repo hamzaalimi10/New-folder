@@ -47,7 +47,7 @@ function Movies() {
                     <div key={movie.id} className="card mb-2" style={{ width: '20rem', margin: '0 auto' }}>
                         <img
                             src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-                            className="card-img-top"
+                            className="card-img-top margin-2"
                             alt="Movies"
                         />
                         <div className="card-body">
