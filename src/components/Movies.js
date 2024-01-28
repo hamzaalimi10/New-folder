@@ -35,7 +35,6 @@ function Movies() {
                     type="number"
                     id="myInput"
                     min="1"
-                    max="5"
                     value={inputValue}
                     onChange={handleInputChange}
                 />
