@@ -12,10 +12,10 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav justify-content-between" style={{ marginLeft: 'auto' }}>
                         <li className="nav-item">
-                            <Link to="/" className='nav-link'>Ballina</Link>
+                            <Link to="/" className='nav-link text-light'>Ballina</Link>
                         </li>
                         <li className="nav-item ">
-                            <Link to="/movies" className='nav-link'>Filmat</Link>
+                            <Link to="/movies" className='nav-link text-light'>Filmat</Link>
                         </li>
 
                     </ul>
