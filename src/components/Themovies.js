@@ -15,8 +15,8 @@ function Themovies() {
             });
     }, []);
     return (
-        <div className='container mt-5'>
-            <h5 className='text-center mb-3'>Filmat me te shikuar</h5>
+        <div className='container mt-4'>
+            <h5 className='text-center mb-4 sub-title'>Recommended</h5>
             <div className='row'>
                 {movies.map((movie) => (
                     <div key={movie.id} className="card mb-2" style={{ width: '20rem', margin: '0 auto' }}>

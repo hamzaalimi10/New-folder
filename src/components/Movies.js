@@ -31,7 +31,7 @@ function Movies() {
         <div className='container mt-4'>
             <div className='d-flex justify-content-end'>
                 <input
-                    className='mb-5 form-control w-25'
+                    className='mb-5 form-control w-10'
                     type="number"
                     id="myInput"
                     min="1"
@@ -47,15 +47,15 @@ function Movies() {
                     <div key={movie.id} className="card mb-2" style={{ width: '20rem', margin: '0 auto' }}>
                         <img
                             src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-                            className="card-img-top margin-2"
+                            className="card-img-top m-2"
                             alt="Movies"
                         />
                         <div className="card-body">
                             <h5 className="card-title" style={{ height: '40px' }}>{movie.title}</h5>
                             <p className="card-text">{movie.overview.slice(0, 120)}</p>
-                            <a href="#" className="btn btn-info">
-                                Kliko me shume
-                            </a>
+                            <button href="#" type='button' className="btn btn-danger">
+                                Watch
+                            </button>
                         </div>
                     </div>
                 ))}

@@ -1,22 +1,24 @@
 import React from 'react'
-import Foto from '../assets/foto.jpg'
-import Picture from '../assets/picture.jpg'
-import Image from '../assets/image.png'
+import F1 from '../assets/images/foto.jpg';
+import F2 from '../assets/images/image.png';
+import F3 from '../assets/images/picture.jpg'
+import F4 from '../assets/images/Poster photo.png'
+
 
 
 function Slider() {
     return (
         <>
-            <div id="carouselExample" class="carousel slide my-3">
+            <div id="carouselExample" class="carousel slide my-1">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src={Foto} class="d-block w-100" alt="..." />
+                        <img src={F4} class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src={Picture} class="d-block w-100" alt="..." />
+                        <img src={F3} class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src={Image} class="d-block w-100" alt="..." />
+                        <img src={F2} class="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

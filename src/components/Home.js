@@ -9,7 +9,7 @@ function Home() {
             <Slider/>
             <Themovies/>
             <div className='text-center'>
-                <Link to="/movies" className='btn btn-info'>Filmat</Link>
+                <Link to="/movies" className='btn btn-danger'>Filmat</Link>
             </div>
         </>
     )
